@@ -1,5 +1,6 @@
 services:
   bypass:
+    build: ./build
     container_name: ${CONTAINER_NAME}
     restart: always
     networks:  
@@ -7,10 +8,9 @@ services:
     environment:
       CONFIG_FILE_PATH: ${CONFIG_FILE_PATH}
     command: 
-      sh -c /conf/start.sh
+      /ikuai-bypass -c ${CONFIG_FILE_PATH} -r cronAft
     volumes:
       - "./conf:/conf"
-    image: alpine:latest
     labels:
       createdBy: "Apps"
 

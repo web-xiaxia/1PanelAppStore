@@ -1,0 +1,1 @@
+/ikuai-bypass -c ${CONFIG_FILE_PATH} -r 1
