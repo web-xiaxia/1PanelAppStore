@@ -1,0 +1,16 @@
+additionalProperties:
+    formFields:
+        - default: /data/config.yml
+          edit: true
+          envKey: CONFIG_FILE_PATH
+          labelEn: Configuration file path
+          labelZh: 配置文件路径
+          required: true
+          type: text
+        - default: -r cronAft
+          edit: true
+          envKey: COMMAND
+          labelEn: COMMAND
+          labelZh: COMMAND
+          required: true
+          type: text

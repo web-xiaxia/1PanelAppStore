@@ -1,0 +1,11 @@
+services:
+  nps:
+    image: alpine:latest
+    container_name: ${CONTAINER_NAME}
+    restart: always
+    command: /data/ikuai-bypass -c ${CONFIG_FILE_PATH} ${COMMAND}
+    volumes:
+      - ./data:/data
+    labels:
+      createdBy: "Apps"
+    
