@@ -5,10 +5,11 @@ title: 内网穿透代理服务器 NPS 的客户端
 type: 工具
 description: 内网穿透代理服务器 NPS 的客户端
 additionalProperties:
-    key: npc
-    name: NPC
+    key: xx-npc
+    name: XX-NPC
     tags:
         - Tool
+        - XX
     shortDescZh: 内网穿透代理服务器 NPS 的客户端
     shortDescEn: Intranet Penetrating Proxy Server NPS Client
     type: tool
