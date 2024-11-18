@@ -1,0 +1,20 @@
+services:
+  bypass:
+    container_name: ${CONTAINER_NAME}
+    restart: always
+    networks:  
+      - 1panel-network 
+    environment:
+      CONFIG_FILE_PATH: ${CONFIG_FILE_PATH}
+    command: 
+      sh -c /conf/start.sh
+    volumes:
+      - "./conf:/conf"
+    image: alpine:latest
+    labels:
+      createdBy: "Apps"
+
+networks:  
+  1panel-network:  
+    external: true
+    

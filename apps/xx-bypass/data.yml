@@ -1,12 +1,11 @@
-name: XX-Bypass
+name: xx-bypass
 tags:
     - 工具
 title: 爱快分流规则维护
-type: 工具
 description: 爱快分流规则维护：用更完善更灵活的方式，自动将通过指定的远程配置文件把区域ip，域名等，整理到到爱快的端口分流、自定义运营商、域名分流、广告屏蔽等
 additionalProperties:
-    key: xx-Bypass
-    name: XX-Bypass
+    key: xx-bypass
+    name: xx-bypass
     tags:
         - Tool
         - XX
@@ -14,7 +13,7 @@ additionalProperties:
     shortDescEn: 爱快分流规则维护：用更完善更灵活的方式，自动将通过指定的远程配置文件把区域ip，域名等，整理到到爱快的端口分流、自定义运营商、域名分流、广告屏蔽等
     type: tool
     crossVersionUpdate: true
-    limit: 1
+    limit: 0
     recommend: 0
     website: https://github.com/joyanhui/ikuai-bypass
     github: https://github.com/joyanhui/ikuai-bypass
