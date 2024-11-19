@@ -1,6 +1,7 @@
 services:
   bypass:
     build: ./build
+    image: bypass:2.1.2.a1
     container_name: ${CONTAINER_NAME}
     restart: always
     networks:  
