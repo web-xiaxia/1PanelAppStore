@@ -1,0 +1,20 @@
+name: xx-ddns-go-hosts
+tags:
+    - 工具
+title: 使用ddns记录 hosts
+description: 使用ddns记录 hosts
+additionalProperties:
+    key: xx-ddns-go-hosts
+    name: xx-ddns-go-hosts
+    tags:
+        - Tool
+        - XX
+    shortDescZh: 使用ddns记录 hosts
+    shortDescEn: 使用ddns记录 hosts
+    type: tool
+    crossVersionUpdate: true
+    limit: 0
+    recommend: 0
+    website: https://github.com/web-xiaxia/ddns-go-hosts
+    github: https://github.com/web-xiaxia/ddns-go-hosts
+    document: https://github.com/web-xiaxia/ddns-go-hosts
