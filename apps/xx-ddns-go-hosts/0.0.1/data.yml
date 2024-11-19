@@ -7,7 +7,7 @@ additionalProperties:
           labelZh: ip文件存放位置
           required: true
           type: text
-        - default: "8080"
+        - default: "9875"
           edit: true
           envKey: DDNS_GO_HOSTS_PORT
           labelEn: Port
