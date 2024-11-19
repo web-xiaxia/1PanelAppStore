@@ -1,7 +1,7 @@
 services:
   bypass:
     build: ./build
-    image: ddns-go-hosts:2.1.2.a1
+    image: ddns-go-hosts:0.0.3
     container_name: ${CONTAINER_NAME}
     restart: always
     network_mode: "host"
