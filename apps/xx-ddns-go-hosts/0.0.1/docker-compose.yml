@@ -3,8 +3,7 @@ services:
     build: ./build
     container_name: ${CONTAINER_NAME}
     restart: always
-    networks:  
-      - 1panel-network 
+    network_mode: "host"
     environment:
       DDNS_GO_HOSTS_PATH: ${DDNS_GO_HOSTS_PATH}
       DDNS_GO_HOSTS_PORT: ${DDNS_GO_HOSTS_PORT}
@@ -15,8 +14,3 @@ services:
       - "./data:/data"
     labels:
       createdBy: "Apps"
-
-networks:  
-  1panel-network:  
-    external: true
-    
