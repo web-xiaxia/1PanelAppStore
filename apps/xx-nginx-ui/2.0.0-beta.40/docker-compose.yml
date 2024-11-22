@@ -13,7 +13,7 @@ services:
       - ${WEB_PATH}:/var/www
     environment:
       - TZ=Asia/Shanghai
-    image: uozi/nginx-ui:v2.0.0-beta.40
+    image: uozi/nginx-ui:2.0.0-beta.40
     labels:  
       createdBy: "Apps"
 
