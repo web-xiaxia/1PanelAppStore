@@ -1,1 +1,0 @@
-rm data/ddns-go-hosts
