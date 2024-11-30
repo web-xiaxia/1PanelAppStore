@@ -45,6 +45,9 @@ services:
     image: lejianwen/rustdesk-api:v2.4.6.10
     volumes:
       - "./data-api:/app/data"
+    depends_on:
+      - hbbr
+      - hbbs
     labels:
       createdBy: "Apps"
 
