@@ -1,0 +1,20 @@
+name: xx-rustdesk-api
+tags:
+    - 工具
+title: Rust Desk API
+description: Rust Desk API
+additionalProperties:
+    key: xx-rustdesk-api
+    name: xx-rustdesk-api
+    tags:
+        - Tool
+        - XX
+    shortDescZh: Rust Desk API
+    shortDescEn: Rust Desk API
+    type: tool
+    crossVersionUpdate: true
+    limit: 0
+    recommend: 0
+    website: https://github.com/lejianwen/rustdesk-api
+    github: https://github.com/lejianwen/rustdesk-api
+    document: https://github.com/lejianwen/rustdesk-api

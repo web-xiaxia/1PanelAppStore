@@ -1,0 +1,23 @@
+services:
+  rustdesk-api:
+    container_name: ${CONTAINER_NAME}
+    restart: always
+    networks:
+      - 1panel-network
+    environment:
+      - TZ=Asia/Shanghai
+      - RUSTDESK_API_RUSTDESK_ID_SERVER=${RUSTDESK_SERVER_IP}:21116
+      - RUSTDESK_API_RUSTDESK_RELAY_SERVER=${RUSTDESK_SERVER_IP}192.168.2.33:21117
+      - RUSTDESK_API_RUSTDESK_API_SERVER=http://${RUSTDESK_API_HOST}:21114
+      - RUSTDESK_API_RUSTDESK_KEY=${RUSTDESK_SERVER_KEY}
+    ports:
+      - 21114:21114
+    image: lejianwen/rustdesk-api:v2.4.6.10
+    volumes:
+      - "./data::/app/data"
+    labels:
+      createdBy: "Apps"
+
+networks:
+  1panel-network:
+    external: true
