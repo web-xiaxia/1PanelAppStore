@@ -1,22 +1,15 @@
 additionalProperties:
     formFields:
-        - default: "127.0.0.1"
-          edit: true
-          envKey: RUSTDESK_SERVER_IP
-          labelEn: Server IP
-          labelZh: Server IP
-          required: true
-          type: text
         - default: ""
           edit: true
-          envKey: RUSTDESK_SERVER_KEY
+          envKey: SERVER_KEY
           labelEn: Server Key
           labelZh: Server Key
           required: true
           type: text
         - default: "127.0.0.1"
           edit: true
-          envKey: RUSTDESK_API_HOST
+          envKey: SERVER_HOST
           labelEn: API Host
           labelZh: API Host
           required: true
