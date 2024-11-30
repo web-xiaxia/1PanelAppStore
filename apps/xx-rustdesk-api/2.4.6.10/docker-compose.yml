@@ -14,7 +14,7 @@ services:
       - 21114:21114
     image: lejianwen/rustdesk-api:v2.4.6.10
     volumes:
-      - "./data::/app/data"
+      - "./data:/app/data"
     labels:
       createdBy: "Apps"
 
